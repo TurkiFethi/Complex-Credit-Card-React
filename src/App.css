@@ -1,33 +1,111 @@
-.App {
-  text-align: center;
+body {
+  
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.arriere {
+  height: 280px;
+  width: 480px;
+ /* background-color: grey;*/
+  background-image: url(https://media.fromthegrapevine.com/assets/images/2017/8/earth-planet-0802.jpg.480x0_q71_crop-scale.jpg); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 25px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin: 10px auto;
+  padding: 25px;
+  box-sizing: border-box;
+}
+.title-credit {
+  font-size: 25px;
+  color: whitesmoke;
+  font-weight: bold;
+  margin: 0;
+  align-self: flex-end;
+}
+.puce {
+  border-radius: 15px;
+  width: 60px;
+  height: 45px;
+  margin-bottom: 15px;
+}
+.num-card {
+  font-size: 25px;
+  color: #dde465;
+  opacity: 0.75;
+  background-color: #88a173;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+}
+.bloc {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.infos {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-right: 30px;
+}
+.num-bloc {
   color: white;
+  font-weight: bold;
+  font-size: 20px;
 }
-
-.App-link {
-  color: #61dafb;
+.valid-thru {
+  color: white;
+  font-weight: bold;
+  font-size: 10px;
+  /* margin: 0px -42px -37px 12px;
+  padding-top: 34px; */
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.month-year {
+  color: white;
+  font-weight: bold;
+  font-size: 8px;
+}
+.img-card {
+  width: 64px;
+  height: 75px;
+  padding-right: 11px;
+  margin-top: -21px;
+}
+.bloc p {
+  margin: 0;
+}
+.card-holder {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  /* margin-top: -13px; */
+}
+.num-bloc {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  align-self: flex-end;
+  /* margin-top: 13px; */
+}
+.nums-bloc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-top: -4px; */
+}
+.valid{
+  display: flex;
+  align-items: flex-end
 }
